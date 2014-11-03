@@ -1,0 +1,1 @@
+eliza.o: eliza.c

@@ -1,0 +1,16 @@
+During Defcon finals, an unintended bug was discovered
+in the checking of mailbox names.  Many, but unfortunately
+not all, of the functions in the first released version of 
+imap properly checked that the mailbox name provided by the
+user didn't contain any directory traversal characters like
+ ".." and "/".  Because of the few functions that didn't 
+properly check, it was possible to traverse out of the
+logged in user's directory and inspect other files
+on the system.  We released a imap1a version to patch this
+issue.
+
+In addition to the bugs intentionally written into the 
+source of the imap2 binary, a stack canary leak was 
+inserted into the binary by manual patching.  This bug 
+is documented in the cmd.c source with a comment that 
+starts with "BUG".
