@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:100,700|Merriweather+Sans:300);
+html {
+  height: 100%; }
+
+body {
+  background: black;
+  background-color: #2c1745;
+  background-image: -webkit-linear-gradient(bottom, #2c1745, #131654);
+  background-image: linear-gradient(to top,#2c1745, #131654);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 1em;
+  text-align: center; }
+
+.lbscontainer {
+        background:rgb(37,23,74);
+}
+
+.lbscontainer span {
+	font-family: "Exo 2", Exo, "Helvetica Neue", Helvetica, sans-serif, Arial;
+	font-weight: 600;
+	font-size: 1.0em;
+	color: rgb(37,23,74);
+	text-align: center;
+	vertical-align: center;
+	display: block;
+	max-width: 98px;
+  max-height: 98px;
+  margin: 0 auto;
+	word-wrap: break-word;	
+}	
+
+.teamTable {
+        fill: #e291e8;
+        stroke: white;
+}
+
+.pwnDot {
+        fill:rgb(255, 128, 0);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Exo 2", Exo, "Helvetica Neue", Helvetica, sans-serif, Arial;
+  font-weight: 100; }
+
+th {
+  font-family: "Exo 2", Exo, "Helvetica Neue", Helvetica, sans-serif, Arial;
+  font-weight: 700; }
+
+.banner {
+  margin-top: 32px;
+  background: url("sunset.png");
+  border: 1px solid #170225;
+  width: 512px;
+  height: 512px; }
+  .banner h1 {
+    font-size: 200px;
+    margin: 0;
+    margin-top: -32px;
+    margin-bottom: 144px;
+    padding: 0; }
+  .banner h2 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0; }
+  .banner h3 {
+    font-size: 18px;
+    margin: 0; }
+
+p, li, td {
+  font-family: "Merriweather Sans", "Helvetica Neue", Helvetica, sans-serif, Arial;
+  font-weight: 300; }
+
+h3 {
+  margin-top: 24px;
+  margin-bottom: 12px; }
+
+.links ul, .finals ul, .quals ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+  .links ul li, .finals ul li, .quals ul li {
+    margin: 0;
+    padding: 0; }
+.links p, .finals p, .quals p {
+  margin: 0 auto; }
+
+.clear {
+  clear: both; }
+
+.prequal table {
+  margin-bottom: 29px;
+  border-spacing: 2px;
+  width: 100%; }
+  .prequal table th, .prequal table td {
+    height: 1.5em; }
+
+a:link, a:visited {
+  color: #e291e8;
+  text-decoration: none;
+  text-shadow: black 0px 2px 4px; }
+
+a:hover {
+  color: white;
+  text-decoration: underline; }
