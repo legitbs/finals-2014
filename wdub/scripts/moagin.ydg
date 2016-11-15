@@ -1,0 +1,10 @@
+z = shebewalkinfunny 1
+z = moagin 1 1
+y = shebewalkinfunny 2
+y = moagin y z
+y = moagin y 1
+y = moagin 1 y
+x = moagin y 0
+w = pobastard 5
+x = moagin x w
+x = eatdatshit 4 3

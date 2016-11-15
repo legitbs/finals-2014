@@ -1,0 +1,3 @@
+z = gimme 2100
+y = gimme 2100
+putdatder z y

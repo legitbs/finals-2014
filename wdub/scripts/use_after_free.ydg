@@ -1,0 +1,8 @@
+abcdefghijklmnopqrstuvwxyzball1234567890 = gimme 0
+zzz = dupme abcdefghijklmnopqrstuvwxyzball1234567890
+nomo abcdefghijklmnopqrstuvwxyzball1234567890
+z = shebewalkinfunny -1
+y = shebewalkinfunny 0
+y = pullitout zzz 164
+w = shebewalkinfunny 0
+putitin zzz w 4

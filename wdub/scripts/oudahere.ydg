@@ -1,0 +1,6 @@
+y = gimme 4
+exite y 0 65
+exite y 1 65
+exite y 2 65
+exite y 3 65
+oudahere y 1 2

@@ -1,0 +1,6 @@
+z = gimme 10
+z = makeit 20
+z = makeit 30
+y = gimme 10
+y = makeit 20
+y = makeit 30

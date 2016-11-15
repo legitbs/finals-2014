@@ -1,0 +1,5 @@
+z = gimme 10
+nomo z
+y = gimme 20
+y = makeit 30
+nomo y

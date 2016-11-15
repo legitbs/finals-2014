@@ -1,0 +1,7 @@
+y = gimme 2
+z = gimme 2
+exite z 0 65
+exite z 1 65
+exite y 0 66
+exite y 1 66
+putdatder y z
